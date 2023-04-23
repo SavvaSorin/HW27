@@ -1,0 +1,30 @@
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+  background-color: #444;
+}
+
+
+.block {
+  animation: color-text 2s infinite alternate  ;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 84px;
+  color: black;
+}
+
+@keyframes color-text {
+  100% {
+    color: red;
+  }
+}
+
